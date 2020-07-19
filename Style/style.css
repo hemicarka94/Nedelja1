@@ -11,7 +11,12 @@ body {
 .pozadina {
     background-color: rgb(255, 238, 200);
 }
-
+.paragraf {
+    background: url("./resources/images.jpg");
+    width: 100%;
+    height: 400px;
+    
+}
 h1 {
     text-align: center;
     color: slategray;
@@ -41,10 +46,11 @@ main {
 #opis {
     font-size: 25px;
     text-align:center;
+    padding-top: 150px;
     padding-left: 80px;
     padding-right: 80px;
     padding-bottom: 30px;
-    color: rgb(119, 147, 172);
+    color:black
 }
 .daljeopis {
     text-align: center;
@@ -55,7 +61,7 @@ main {
     text-align: center;
     font-size: 40px;
     padding-top: 60px;
-    color:darkslategray;
+    color:rgb(44, 66, 92);
 }
 ol{
     padding-left: 35%;
@@ -68,7 +74,7 @@ ol{
 ol > li {
     padding-top: 10px;
     font-size: 30px;
-    color: teal;
+    color: rgb(33, 88, 88);
 }
 ol > ul{
     color: slategrey;
@@ -79,7 +85,7 @@ ol > ul{
     font-size: 50px;
     padding-top: 60px;
     padding-bottom: 50px;
-    color: darkslategray;
+    color: rgb(44, 66, 92);
 }
 .grid-container2 {
     display: grid;
